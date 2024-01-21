@@ -56,7 +56,8 @@ h2 {}
 }
 
 /* Header */
-header {
+header,
+#hot-deal {
     background: rgba(229, 84, 115, 0.10);
 }
 
@@ -108,18 +109,115 @@ header {
 .section-content {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
+    gap: 25px;
     align-items: end;
 }
 
 .section-content .flower .flower-img {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding: ;
-    
+    padding: 30px 15px 0;
+    height: 400px;
+    display: flex;
+    align-items: end;
+
+
 
 }
-.section-content .flower .flower-img img{
+
+.section-content .flower .flower-img img {
     width: 100%;
     height: 100%;
+
+}
+
+.section-content .flower .pink {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.section-content .flower .blue {
+
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.section-content .flower .green {
+
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.section-content .flower p {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
+    margin-top: 32px;
+}
+
+/* Hot Deal Section */
+.hot-deal-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hot-deal .hot-deal-text {
+    max-width: 75%;
+    max-width: 550px;
+
+}
+
+#hot-deal .hot-deal-text * {
+    margin-bottom: 24px;
+}
+
+#hot-deal .hot-deal-text h2 {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#hot-deal .hot-deal-text .hot-deal-off-text {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#hot-deal .hot-deal-image {
+    max-width: 318px;
+}
+
+/* Section Instagram */
+#section-insta .container {
+    margin: 128px auto;
+}
+
+#section-insta .container .insta-text {
+    text-align: center;
+}
+#section-insta .container .insta-text p{
+    margin-top: 24px;
+}
+
+#section-insta .insta-pic {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+    
+}
+
+#section-insta .insta-pic .pic-1 img{
+    width: 350px;
+    height: 375px;
+    padding: 0 24px;
 }
