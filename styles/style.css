@@ -205,7 +205,8 @@ header,
 #section-insta .container .insta-text {
     text-align: center;
 }
-#section-insta .container .insta-text p{
+
+#section-insta .container .insta-text p {
     margin-top: 24px;
 }
 
@@ -213,11 +214,85 @@ header,
     display: flex;
     align-items: center;
     margin-top: 48px;
-    
+
 }
 
-#section-insta .insta-pic .pic-1 img{
+#section-insta .insta-pic .pic-1 img {
     width: 350px;
     height: 375px;
     padding: 0 24px;
+}
+
+
+/* Section News Letter */
+#newsletter {
+    margin: 128px 0;
+}
+
+.background {
+    background-image: url("../images/Rectangle\ 9.png");
+    padding: 120px 0;
+    background-repeat: no-repeat;
+}
+
+#newsletter form {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    gap: 47px;
+}
+
+#newsletter form input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+/* footer */
+footer {
+    background-color: #111010;
+
+
+}
+
+footer .text-contain {
+    
+    padding: 128px 0;
+    text-align: center;
+    
+
+
+}
+
+footer .flower-text {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+footer .flower-shop {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+   
+}
+
+footer .paragraph {
+    padding: 30px 0;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    
+}
+
+footer .copy-rights {
+    color: rgba(255, 255, 255, 0.40);
+    
+    font-size: 16px;
+    font-weight: 400;
 }
